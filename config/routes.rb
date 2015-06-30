@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  namespace :api, defaults: {format: :json} do
+    namespace :v1 do
+      resources :temporary_uploads, only: [:create]
+      resources :insurance_cards, only: [:index, :create]
+    end
+  end
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

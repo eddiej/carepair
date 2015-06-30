@@ -1,0 +1,2 @@
+class Back < TemporaryUpload
+end
