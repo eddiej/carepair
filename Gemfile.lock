@@ -182,7 +182,6 @@ DEPENDENCIES
   byebug
   capybara
   capybara-webkit
-  coffee-rails (~> 4.1.0)
   database_cleaner
   factory_girl
   jbuilder (~> 2.0)
