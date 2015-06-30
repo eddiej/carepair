@@ -58,5 +58,7 @@ group :development, :test do
 
   # Poltergeist for headless testing, requires PhantomJS install.
   # gem 'poltergeist'
+	
+	gem 'guard-rspec'	
 end
 
